@@ -4,7 +4,7 @@ module.exports = class ControllerItem{
   constructor () {
 
   }
- 
+  	//テストapi
  	test(req, res, next) {		
 		res.send(req.query.test);
 	}
